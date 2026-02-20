@@ -398,7 +398,6 @@ services:
     #   - '8888'
     #   - '8889'
     volumes:
-      - .env:/app/.env
       - ../backend/conf:/app/resources/conf
       # - ../backend/static:/app/resources/static
     depends_on:
